@@ -36,23 +36,17 @@ Enter URL (or type 'exit' to quit): google.com
 
 Output:
 
-Output:
+--- HTTP Check ---  
+URL: https://google.com  
+Status: 200 OK (Success)  
+Response time: 0.123 seconds  
 
-```
---- HTTP Check ---
-URL: https://google.com
-Status: 200 OK (Success)
-Response time: 0.123 seconds
-
-Headers:
-  Date: Tue, 14 Apr 2026 12:40:43 GMT
-  Cache-Control: private, max-age=0
-  Content-Type: text/html
-  Content-Encoding: gzip
-  Server: gws
-
-----------------------------------------
-```
+Headers:  
+Date: Tue, 14 Apr 2026 12:40:43 GMT  
+Cache-Control: private, max-age=0  
+Content-Type: text/html  
+Content-Encoding: gzip  
+Server: gws  
 
 ## Notes
 
