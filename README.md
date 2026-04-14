@@ -49,8 +49,6 @@ Content-Type: text/html
 Content-Encoding: gzip
 Server: gws
 
---- 
-
 ## Notes
 
 * Uses Python `requests` library for HTTP communication
