@@ -3,7 +3,7 @@ import time
 
 # Function: Classify HTTP status code into categories
 # Returns:
-#   Success (2xx), Redirection (3xx), Client Error (4xx), Server Error (5xx)
+# Success (2xx), Redirection (3xx), Client Error (4xx), Server Error (5xx)
 def get_status_category(status_code):
     if 200 <= status_code < 300:
         return "Success"
@@ -25,7 +25,7 @@ while True:
     if url.lower() == "exit":
         break
 
-    # Add https:// if missing (input cleaning)
+    # Add https:// if missing 
     if not url.startswith("http://") and not url.startswith("https://"):
         url = "https://" + url
 
